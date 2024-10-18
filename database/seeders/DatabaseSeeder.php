@@ -21,7 +21,7 @@ class DatabaseSeeder extends Seeder
             'is_admin'=> true,
         ]);
 
-        User::factory(99999)->create();
+        User::factory(2)->create();
 
         // User::factory()->create([
         //     'name' => 'Test User',
